@@ -1,18 +1,21 @@
+
+
 // JS oop
 // OOP stands for Object oriented programming.
 class Person {                 // class er nam er first latter capital hote hobe. (Person)
     constructor(fname, lname, dob){
         this.firstName = fname;
         this.lastName = lname;
-        this.dateOfBirth = dob
+        this.dateOfBirth = dob;
     }
     fullName(){
-        console.log(`my Name is ${this.firstName} ${this.lastName}`)
+        return `my Name is ${this.firstName} ${this.lastName}`;
     }
 };
 let person1 = new Person('Omar', 'Faruk', 2002);
-console.log(person1)
-console.log(person1.fullName)
+console.log(person1);
+console.log(person1.fullName());   // call js class object function.
+
 // another practise of oop
 class Student{           // class er nam er first latter capital hote hobe . (Student)
     constructor(name,roll, age){
